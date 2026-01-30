@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poornima Jain - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cdbd2c3a49.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/PRJ.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#cert">Certificates & Internships</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>React Developer & RRT Lead</p>
+                <h1>Hello, I'm <span>Poornima</span><br>from Bengaluru</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/bb.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Software Developer with 1.4 years of hands-on experience building and maintaining production-grade web applications.<br><br>
+                        Strong expertise in <strong>React.js</strong> for developing business-critical user interfaces and <strong>C#/.NET</strong> for building backend modules, Windows Services, and REST API integrations.<br><br>
+                        Proven ability to deliver scalable features, handle live production incidents, and optimize application performance.<br><br>
+                        Promoted to <strong>Rapid Response Team (RRT) Lead</strong> — owning frontend and backend stability, rapid resolution of client-impacting issues, and cross-team collaboration. Reduced recurring production failures by <strong>90%</strong> through structured root cause analysis and preventive measures.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links act-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('lang')">Languages</p>
+                    </div>
+
+                    <div class="tab-contents act-tab" id="skills">
+                        <ul >
+                            <li>React.js, Redux, Hooks, State Management</li>
+                            <li>JavaScript (ES6+), HTML5, CSS3</li>
+                            <li>REST API Integration</li>
+                            <li>.NET (C#, MVC), Windows Services</li>
+                            <li>MS SQL – Query Optimization, Stored Procedures, Views</li>
+                            <li>Git, Browser Debugging, Performance Profiling</li>
+                            <li>Power BI, Unity 3D</li>
+                            <li>Component Reusability & Performance Optimization</li>
+                            <li>Production Support & Incident Handling</li>
+                            <li>Responsive Design & Cross-browser Compatibility</li>
+                            <li>Unit Testing (Jest)</li>
+                            <li>Team Leadership & Client Communication</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><strong>Angodigital Technologies</strong> — React Developer & Rapid Response Team (RRT) Lead<br>Oct 2024 – Present</li>
+                            <li>Developed & maintained React-based dashboards and user-facing modules in live production</li>
+                            <li>Promoted to RRT Lead — owning frontend/backend stability & high-priority issue resolution</li>
+                            <li>Reduced recurring production failures by 90% through root cause analysis, preventive fixes & optimized deployments</li>
+                            <li>Built reusable React components with hooks and effective state management</li>
+                            <li>Integrated REST APIs and collaborated with backend teams for scalable UI solutions</li>
+                            <li>Developed MES features: real-time machine data processing, OEE dashboards, traceability</li>
+                            <li>Designed C#/.NET modules & Windows Services for automated machine data ingestion</li>
+                            <li>Wrote optimized SQL queries, stored procedures & views for high-volume data</li>
+                        </ul>
+                    </div>
+
+                   <!-- EDUCATION -->
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li>
+                            <span>B.E. in Computer Science Engineering</span><br>
+                            SDM Institute of Technology, Ujire<br>
+                            CGPA: 8.15
+                        </li>
+                        <li>
+                            <span>Pre-University</span><br>
+                            SDM PU College, Ujire<br>
+                            Percentage: 86.5%
+                        </li>
+                        <li>
+                            <span>SSLC</span><br>
+                            SDM English Medium School, Dharmasthala<br>
+                            Percentage: 93.28%
+                        </li>
+                    </ul>
+                </div>
+
+                    <div class="tab-contents" id="lang">
+                        <ul>
+                            <li>English</li>
+                            <li>Hindi</li>
+                            <li>Kannada</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- projects -->
+<div id="project">
+    <div class="container">
+        <h1 class="sub-titles">My Projects</h1>
+        
+        <div class="projects-wrapper">
+            <div class="service-list">
+
+                <!-- 1. Neopoulx -->
+                <div>
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h2>Neopoulx – Advanced Poultry Management System</h2>
+                    <p>Production-grade poultry platform with role-based access, interactive dashboards, real-time metrics. Led frontend, APIs, releases & production support as RRT Lead.</p>
+                    <p><b>Tech:</b> React.js, Redux, Material UI, REST APIs</p>
+                    <a href="https://neopoulx.in" target="_blank">Live URL</a>
+                </div>
+
+                <!-- 2. AR Auto Oasis -->
+                <div>
+                    <i class="fa-solid fa-vr-cardboard"></i>
+                    <h2>AR Auto Oasis – Augmented Reality Car Showcase</h2>
+                    <p>Interactive AR web app for exploring car models in augmented reality.</p>
+                    <p><b>Tech:</b> Unity 3D, HTML, CSS, JavaScript, Bootstrap, PHP</p>
+                    <a href="images/AR.pdf">Learn more</a>
+                </div>
+
+                <!-- 3. Online Shopping -->
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Online Shopping Management System</h2>
+                    <p>Database-driven e-commerce portal with product listings and order workflows.</p>
+                    <p><b>Tech:</b> HTML, CSS, JavaScript, PHP, MySQL</p>
+                    <a href="images/Document 101.pdf">Learn more</a>
+                </div>
+
+                <!-- 4. Travelling Salesman -->
+                <div>
+                    <i class="fa-solid fa-circle-nodes"></i>
+                    <h2>Travelling Salesman Problem</h2>
+                    <p>Graph-based implementation of TSP using OpenGL and C.</p>
+                    <a href="images/TRAVELLING SALES MAN PROBLEM.pdf">Learn more</a>
+                </div>
+
+                <!-- 5. News Application -->
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>News Application</h2>
+                    <p>Mobile app for category-based news reading.</p>
+                    <p><b>Tech:</b> XML (frontend), Java (backend)</p>
+                    <a href="images/mad project.pdf">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- certificates -->
+    <div id="cert">
+        <div class="container">
+            <h1 class="sub-titles">Certificates & Internships</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h2>Power BI Completion Certificate</h2>
+                        <p>Awarded for successful completion of Power BI course from Jatan Shah (Microsoft Certified Trainer)</p>
+                        <a href="images/Power BI certificate.pdf"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h2>HAL Internship</h2>
+                        <p>1-month internship at Hindustan Aeronautics Limited, Bangalore<br>Worked on Aviation Management System (Machine Planning & Debriefing)</p>
+                        <a href="images/Iternship hal.jpeg"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h2>Techciti Internship</h2>
+                        <p>1-month internship at Techciti Technologies Pvt. Ltd.<br>Developed Multiple Disease Prediction System using supervised learning</p>
+                        <a href="images/poornima (1) (1).pdf"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> jainpoornimar@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9480314305</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/poornima-r-jain"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/in/jain_poornima"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/Poornima_Software_Developer.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Poornima Jain. Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(var tablink of tablinks){
+                tablink.classList.remove("act-link");
+            }
+            for(var tabcontent of tabcontents){
+                tabcontent.classList.remove("act-tab");
+            }
+            event.currentTarget.classList.add("act-link");
+            document.getElementById(tabname).classList.add("act-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyuItTFX9UgZViQWE2hK8tQjoz0outebgQMD3bJodK7z5qoMvON_a11yfLsP0XY0b190A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){ msg.innerHTML = "" },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+</html>
