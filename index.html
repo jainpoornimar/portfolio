@@ -12,22 +12,26 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/cdbd2c3a49.js" crossorigin="anonymous"></script>
 </head>
-<>
+
+<body>
+
+<!-- Blur overlay for menu -->
+<div id="menu-overlay" class="menu-overlay"></div>
 
 <!-- HEADER -->
 <div id="header">
     <div class="container">
         <nav>
-            <img src="images/PRJ.png" class="logo">
+            <img src="images/PRJ.png" class="logo" alt="Poornima Jain Logo">
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#project">Projects</a></li>
                 <li><a href="#cert">Certificates</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <i class="fas fa-times" onclick="closemenu()"></i>
+                <i class="fas fa-times" id="close-menu"></i>
             </ul>
-            <i class="fas fa-bars" onclick="openmenu()"></i>
+            <i class="fas fa-bars" id="open-menu"></i>
         </nav>
 
         <div class="header-text">
@@ -42,7 +46,7 @@
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                <img src="images/bb.jpg">
+                <img src="images/bb.jpg" alt="Poornima Jain">
             </div>
 
             <div class="about-col-2">
@@ -141,7 +145,7 @@
                     recurring production issues by 90%.
                 </p>
                 <p><b>Tech:</b> React.js, Redux, Material UI, REST APIs</p>
-                <a href="https://neopoulx.in" target="_blank">Live URL</a>
+                <a href="https://neopoulx.in" target="_blank" rel="noopener noreferrer">Live URL</a>
             </div>
         
             <!-- 2. AR Auto Oasis -->
@@ -159,7 +163,7 @@
                     to ensure consistent behavior on mobile and web platforms.
                 </p>
                 <p><b>Tech:</b> Unity 3D, HTML, CSS, JavaScript, Bootstrap, PHP</p>
-                <a href="images/AR.pdf">Learn more</a>
+                <a href="images/AR.pdf" target="_blank" rel="noopener noreferrer">Learn more</a>
             </div>
         
             <!-- 3. Online Shopping -->
@@ -177,7 +181,7 @@
                     and structured code organization.
                 </p>
                 <p><b>Tech:</b> HTML, CSS, JavaScript, PHP, MySQL</p>
-                <a href="images/Document 101.pdf">Learn more</a>
+                <a href="images/Document 101.pdf" target="_blank" rel="noopener noreferrer">Learn more</a>
             </div>
         
             <!-- 4. Travelling Salesman -->
@@ -194,7 +198,7 @@
                     traversal routes. This project strengthened my understanding of data structures, algorithms, and
                     computational optimization concepts.
                 </p>
-                <a href="images/TRAVELLING SALES MAN PROBLEM.pdf">Learn more</a>
+                <a href="images/TRAVELLING SALES MAN PROBLEM.pdf" target="_blank" rel="noopener noreferrer">Learn more</a>
             </div>
         
             <!-- 5. News Application -->
@@ -210,7 +214,7 @@
                     It was built with clear separation of concerns to ensure maintainability and scalability.
                 </p>
                 <p><b>Tech:</b> Java, XML</p>
-                <a href="images/mad project.pdf">Learn more</a>
+                <a href="images/mad project.pdf" target="_blank" rel="noopener noreferrer">Learn more</a>
             </div>
         
         </div>
@@ -218,40 +222,41 @@
 
     </div>
 </div>
-<!-- certificates -->
+
+<!-- CERTIFICATES -->
 <div id="cert">
     <div class="container">
         <h1 class="sub-titles">Certificates & Internships</h1>
         <div class="work-list">
             <div class="work">
-                <img src="images/work-1.png">
+                <img src="images/work-1.png" alt="Power BI Certificate">
                 <div class="layer">
                     <h2>Power BI Completion Certificate</h2>
                     <p>Awarded for successful completion of Power BI course from Jatan Shah (Microsoft Certified Trainer)</p>
-                    <a href="images/Power BI certificate.pdf"><i class="fa-solid fa-link"></i></a>
+                    <a href="images/Power BI certificate.pdf" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i></a>
                 </div>
             </div>
             <div class="work">
-                <img src="images/work-2.png">
+                <img src="images/work-2.png" alt="HAL Internship">
                 <div class="layer">
                     <h2>HAL Internship</h2>
                     <p>1-month internship at Hindustan Aeronautics Limited, Bangalore<br>Worked on Aviation Management System (Machine Planning & Debriefing)</p>
-                    <a href="images/Iternship hal.jpeg"><i class="fa-solid fa-link"></i></a>
+                    <a href="images/Iternship hal.jpeg" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i></a>
                 </div>
             </div>
             <div class="work">
-                <img src="images/work-3.png">
+                <img src="images/work-3.png" alt="Techciti Internship">
                 <div class="layer">
                     <h2>Techciti Internship</h2>
                     <p>1-month internship at Techciti Technologies Pvt. Ltd.<br>Developed Multiple Disease Prediction System using supervised learning</p>
-                    <a href="images/poornima (1) (1).pdf"><i class="fa-solid fa-link"></i></a>
+                    <a href="images/poornima (1) (1).pdf" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i></a>
                 </div>
             </div>
         </div>
     </div>
-    </div>
 </div>
-<!-- Contact -->
+
+<!-- CONTACT -->
 <div id="contact">
     <div class="container">
         <div class="row">
@@ -260,8 +265,8 @@
                 <p><i class="fa-solid fa-paper-plane"></i> jainpoornimar@gmail.com</p>
                 <p><i class="fa-solid fa-phone"></i> 9480314305</p>
                 <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/poornima-r-jain"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/in/jain_poornima"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/poornima-r-jain" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/in/jain_poornima" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
                 </div>
                 <a href="images/Poornima_Software_Developer.pdf" download class="btn btn2">Download Resume</a>
             </div>
@@ -269,7 +274,7 @@
                 <form name="submit-to-google-sheet">
                     <input type="text" name="Name" placeholder="Your Name" required>
                     <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
                     <button type="submit" class="btn btn2">Submit</button>
                 </form>
                 <span id="msg"></span>
@@ -281,9 +286,12 @@
     </div>
 </div>
 
+<!-- SCRIPTS -->
 <script>
+    // Tab switching functionality
     var tablinks = document.getElementsByClassName("tab-links");
     var tabcontents = document.getElementsByClassName("tab-contents");
+    
     function opentab(tabname){
         for(var tablink of tablinks){
             tablink.classList.remove("act-link");
@@ -297,25 +305,80 @@
 </script>
 
 <script>
-    var sidemenu = document.getElementById("sidemenu");
-    function openmenu(){
-        sidemenu.style.right = "0";
+    // Mobile menu functionality with all requested features
+    const sidemenu = document.getElementById("sidemenu");
+    const menuOverlay = document.getElementById("menu-overlay");
+    const openMenuBtn = document.getElementById("open-menu");
+    const closeMenuBtn = document.getElementById("close-menu");
+    const menuLinks = sidemenu.querySelectorAll("a");
+
+    function openmenu() {
+        sidemenu.classList.add("active");
+        menuOverlay.classList.add("active");
+        document.body.style.overflow = "hidden"; // Prevent body scroll when menu is open
     }
-    function closemenu(){
-        sidemenu.style.right = "-200px";
+
+    function closemenu() {
+        sidemenu.classList.remove("active");
+        menuOverlay.classList.remove("active");
+        document.body.style.overflow = ""; // Restore body scroll
     }
+
+    // Open menu button
+    openMenuBtn.addEventListener("click", function(e) {
+        e.stopPropagation();
+        openmenu();
+    });
+
+    // Close menu button
+    closeMenuBtn.addEventListener("click", function(e) {
+        e.stopPropagation();
+        closemenu();
+    });
+
+    // Close menu when clicking on overlay
+    menuOverlay.addEventListener("click", closemenu);
+
+    // Close menu when clicking on menu links
+    menuLinks.forEach(link => {
+        link.addEventListener("click", closemenu);
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener("click", function(event) {
+        const isClickInsideMenu = sidemenu.contains(event.target);
+        const isClickOnOpenBtn = openMenuBtn.contains(event.target);
+
+        if (!isClickInsideMenu && !isClickOnOpenBtn && sidemenu.classList.contains("active")) {
+            closemenu();
+        }
+    });
+
+    // Close menu with ESC key (accessibility)
+    document.addEventListener("keydown", function(event) {
+        if (event.key === "Escape" && sidemenu.classList.contains("active")) {
+            closemenu();
+        }
+    });
+
+    // Prevent menu from closing when clicking inside it
+    sidemenu.addEventListener("click", function(e) {
+        e.stopPropagation();
+    });
 </script>
 
 <script>
+    // Contact form submission
     const scriptURL = 'https://script.google.com/macros/s/AKfycbyuItTFX9UgZViQWE2hK8tQjoz0outebgQMD3bJodK7z5qoMvON_a11yfLsP0XY0b190A/exec'
     const form = document.forms['submit-to-google-sheet']
     const msg = document.getElementById("msg")
+    
     form.addEventListener('submit', e => {
         e.preventDefault()
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => {
                 msg.innerHTML = "Message sent successfully"
-                setTimeout(function(){ msg.innerHTML = "" },5000)
+                setTimeout(function(){ msg.innerHTML = "" }, 5000)
                 form.reset()
             })
             .catch(error => console.error('Error!', error.message))
