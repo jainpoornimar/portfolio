@@ -51,28 +51,26 @@ Here are some key projects featured on my portfolio:
 ### 🔹 NeoPulx – Advanced Poultry Management System  
 A production-grade web application for real-time farm operations insights.  
 **Tech:** React.js, Redux, Material UI, REST APIs  
-🌐 Live: https://neopoulx.in :contentReference[oaicite:1]{index=1}
+🌐 Live: https://neopoulx.in 
 
 ### 🔹 AR Auto Oasis – Augmented Reality Car Showcase  
 Interactive AR application for car visualizations.  
-**Tech:** Unity 3D, HTML, CSS, JavaScript, Bootstrap, PHP :contentReference[oaicite:2]{index=2}
+**Tech:** Unity 3D, HTML, CSS, JavaScript, Bootstrap, PHP 
 
 ### 🔹 Multiple Disease Prediction System  
 A healthcare ML app for predicting disease risk.  
-**Tech:** Python, Scikit-learn, Streamlit :contentReference[oaicite:3]{index=3}
+**Tech:** Python, Scikit-learn, Streamlit 
 
-...and more showcased on the live site. :contentReference[oaicite:4]{index=4}
-
+...and more showcased on the live site. 
 ---
 
 ## 📫 Contact
 
 I’m always open to exciting opportunities and collaborations!
 
-- ✉️ Email: jainpoornimar@gmail.com :contentReference[oaicite:5]{index=5}
-- 📱 Phone: 9480314305 :contentReference[oaicite:6]{index=6}
-- 📄 **Resume:** Available for download on the website :contentReference[oaicite:7]{index=7}
-
+- ✉️ Email: jainpoornimar@gmail.com 
+- 📱 Phone: 9480314305 
+- 📄 **Resume:** Available for download on the website 
 ---
 
 ## ⭐ Why This Portfolio Matters
@@ -84,7 +82,7 @@ This portfolio is designed to:
 - ✔️ Serve as a living development record of skills and growth
 - ✔️ Make it easier for others to understand my capabilities through a polished UI
 
-A well-organized portfolio like this helps you stand out — both in hiring processes and open source showcases. :contentReference[oaicite:8]{index=8}
+A well-organized portfolio like this helps you stand out — both in hiring processes and open source showcases. 
 
 ---
 
