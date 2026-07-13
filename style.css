@@ -481,8 +481,8 @@ nav .fas{
     }
     
     .header-text{
-        margin-top: 112%;
-        font-size: 16px;
+        margin-top: 115%;
+        font-size: 18px;
     }
     
     .header-text h1{
@@ -574,4 +574,21 @@ nav .fas{
     .projects-wrapper {
         overflow-x: hidden;
     }
+}
+
+
+/* Mobile */
+@media only screen and (max-width:600px){
+
+    .hero-description{
+        max-width:100%;
+        font-size:15px;
+        line-height:1.6;
+        margin-top:15px;
+        text-align:left;
+    }
+    .about-col-1 img{
+        margin-top:300px;
+    }
+
 }
