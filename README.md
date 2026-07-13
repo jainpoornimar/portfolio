@@ -1,92 +1,143 @@
-# 🌟 Poornima Jain – Frontend Developer Portfolio
+# 🌟 Poornima Jain – Full Stack Developer Portfolio
 
-Welcome to the source code for my personal portfolio website!  
-This portfolio showcases my skills, experience, projects, and achievements as a **Frontend Developer (React.js)**.
+Welcome to the source code of my personal portfolio website!
 
-🔗 **Live Demo:** https://jainpoornimar.github.io/portfolio/
+This portfolio showcases my professional experience, technical skills, projects, certifications, and achievements as a **Full Stack Developer** with expertise in **ASP.NET Core, C#, React.js, SQL Server, and modern web technologies**.
 
----
-
-## 🚀 About Me
-
-Hi, I’m **Poornima Jain** — a passionate Frontend Developer specializing in **React.js** and modern web development.
-
-- 🔹 Frontend-focused with hands-on experience crafting responsive UI designs  
-- 🔹 Comfortable with both frontend and backend fundamentals  
-- 🔹 Strong problem-solving, production support, and cross-team collaboration skills  
-- 🔹 Always learning and eager to take on challenging projects
+🔗 **Live Portfolio:** https://jainpoornimar.github.io/portfolio/
 
 ---
 
-## 💡 What’s Inside
+# 🚀 About Me
 
-This repository contains:
+Hi, I'm **Poornima Jain**, a Full Stack Software Developer passionate about building scalable, user-friendly, and high-performance web applications.
 
-- 🏠 **Home section** – Intro and professional headline
-- 💼 **About Me** – Overview of skills, experience, and education
-- 🚧 **Projects** – Key projects I’ve built
-- 📜 **Certificates & Internships** – Achievements and internship experience
-- 📞 **Contact** – My contact info and resume download
+I have hands-on experience developing enterprise applications using **ASP.NET Core**, **C#**, **React.js**, and **SQL Server**, along with solving complex production issues and delivering reliable software solutions.
 
+### Highlights
 
-
-## 🛠 Technologies Used
-
-This portfolio is built with:
-
-- **HTML5**
-- **CSS3**
-- **JavaScript**
-
-- GitHub Pages for deployment
-
-Feel free to explore the code to see how different sections are organized and styled.
+* 💻 Full Stack development using **ASP.NET Core, C#, React.js, and SQL Server**
+* 🎯 Experience building responsive and interactive web applications
+* 🚀 Strong understanding of REST APIs, authentication, and database design
+* 🔍 Skilled in debugging, production support, and performance optimization
+* 🤝 Excellent collaboration and communication with cross-functional teams
+* 📚 Passionate about learning new technologies and continuously improving
 
 ---
 
-## 📁 Project Highlights
+# 💡 Portfolio Features
 
-Here are some key projects featured on my portfolio:
+This portfolio includes:
 
-### 🔹 NeoPulx – Advanced Poultry Management System  
-A production-grade web application for real-time farm operations insights.  
-**Tech:** React.js, Redux, Material UI, REST APIs  
-🌐 Live: https://neopoulx.in 
-
-### 🔹 AR Auto Oasis – Augmented Reality Car Showcase  
-Interactive AR application for car visualizations.  
-**Tech:** Unity 3D, HTML, CSS, JavaScript, Bootstrap, PHP 
-
-### 🔹 Multiple Disease Prediction System  
-A healthcare ML app for predicting disease risk.  
-**Tech:** Python, Scikit-learn, Streamlit 
-
-...and more showcased on the live site. 
----
-
-## 📫 Contact
-
-I’m always open to exciting opportunities and collaborations!
-
-- ✉️ Email: jainpoornimar@gmail.com 
-- 📱 Phone: 9480314305 
-- 📄 **Resume:** Available for download on the website 
----
-
-## ⭐ Why This Portfolio Matters
-
-This portfolio is designed to:
-
-- ✔️ Highlight my technical strengths and practical work
-- ✔️ Give recruiters and collaborators a quick look at my best projects
-- ✔️ Serve as a living development record of skills and growth
-- ✔️ Make it easier for others to understand my capabilities through a polished UI
-
-A well-organized portfolio like this helps you stand out — both in hiring processes and open source showcases. 
+* 🏠 **Home** – Introduction and professional summary
+* 👩‍💻 **About** – Skills, experience, and educational background
+* 🚀 **Projects** – Real-world applications and development work
+* 📜 **Certificates & Internships** – Professional achievements and learning
+* 🛠 **Technical Skills** – Technologies and tools I work with
+* 📄 **Resume** – Downloadable resume
+* 📞 **Contact** – Ways to connect with me
 
 ---
 
+# 🛠 Technologies Used
 
+The portfolio is built using:
 
-📌 *Thanks for visiting!*  
-If you have feedback or ideas, let’s connect! 😊
+* HTML5
+* CSS3
+* JavaScript
+* Responsive Design
+* Git & GitHub
+* GitHub Pages (Deployment)
+
+---
+
+# 📁 Featured Projects
+
+## 🌿 Virudhi – AI-Based Herbal Medical Care Platform
+
+A full-stack web application that helps users discover medicinal plants through intelligent recommendations, symptom-based search, and an admin management system.
+
+**Tech Stack:**
+
+* ASP.NET Core Web API
+* C#
+* React.js
+* SQL Server
+* JWT Authentication
+
+---
+
+## 🐔 NeoPulx – Advanced Poultry Management System
+
+A production-grade enterprise application developed to streamline poultry farm operations with real-time monitoring and management.
+
+**Tech Stack:**
+
+* React.js
+* Redux
+* Material UI
+* REST APIs
+
+🌐 Live: https://neopoulx.in
+
+---
+
+## 🚗 AR Auto Oasis
+
+An Augmented Reality application that enables users to explore 3D vehicle models interactively.
+
+**Tech Stack:**
+
+* Unity 3D
+* HTML
+* CSS
+* JavaScript
+* Bootstrap
+* PHP
+
+---
+
+## 🩺 Multiple Disease Prediction System
+
+A machine learning application that predicts potential diseases based on user-provided health information.
+
+**Tech Stack:**
+
+* Python
+* Scikit-learn
+* Streamlit
+
+---
+
+More projects are available on the live portfolio.
+
+---
+
+# 📫 Contact
+
+I'm always interested in discussing software development, innovative projects, and new career opportunities.
+
+📧 **Email:** [jainpoornimar@gmail.com](mailto:jainpoornimar@gmail.com)
+
+📱 **Phone:** +91 9480314305
+
+📄 **Resume:** Available for download through the portfolio website.
+
+---
+
+# ⭐ Purpose of This Portfolio
+
+This portfolio serves as a platform to:
+
+* Showcase my technical expertise and professional experience
+* Demonstrate real-world full stack development projects
+* Highlight practical problem-solving and software engineering skills
+* Present my growth as a developer through continuous learning
+* Provide recruiters and collaborators with a comprehensive overview of my work
+
+---
+
+Thank you for visiting my portfolio!
+
+If you have any feedback, collaboration ideas, or exciting opportunities, I'd love to connect.
