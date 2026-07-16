@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Engineering Insights by Poornima Jain: .NET, React, technical leadership, community, and career articles."
+    />
+    <title>Engineering Insights | Poornima Jain</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="blog.css" />
+    <script
+      src="https://kit.fontawesome.com/cdbd2c3a49.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="shell nav">
+        <a class="brand" href="index.html"><b>P</b>RJ.</a>
+        <ul class="nav-links">
+          <li><a href="#articles" class="active">Articles</a></li>
+          <li>
+            <a
+              href="https://github.com/jainpoornimar"
+              target="_blank"
+              rel="noopener"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://jainpoornimar.github.io/portfolio/"
+              target="_blank"
+              rel="noopener"
+              >Portfolio</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="shell">
+          <p class="kicker">Poornima Jain / Engineering Journal</p>
+          <h1>Ideas from <span>the build.</span></h1>
+          <p>
+            Practical notes on .NET, React, production support, technical
+            communication, leadership, and community building.
+          </p>
+          <div class="stats">
+            <div class="stat">
+              <strong>8</strong><small>Cornerstone articles</small>
+            </div>
+            <div class="stat">
+              <strong>3</strong><small>Technical domains</small>
+            </div>
+            <div class="stat">
+              <strong>2</strong><small>People-first themes</small>
+            </div>
+          </div>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i
+            ><input
+              id="search"
+              type="search"
+              placeholder="Search articles, technology, or topic..."
+            />
+          </div>
+        </div>
+      </section>
+      <section id="articles" class="shell content">
+        <h2 class="section-title">Explore the journal</h2>
+        <div id="filters" class="filters">
+          <button class="active" data-category="all">All articles</button
+          ><button data-category=".net">.NET</button
+          ><button data-category="react">React</button
+          ><button data-category="career">Career</button
+          ><button data-category="leadership">Leadership</button
+          ><button data-category="community">Community</button>
+        </div>
+        <div id="postGrid" class="grid"></div>
+        <p id="empty" class="empty">No articles match that search yet.</p>
+      </section>
+    </main>
+    <footer class="site-footer">
+      Copyright © Poornima Jain. Made with <i class="fa-solid fa-heart"></i>
+    </footer>
+    <script src="blog.js"></script>
+  </body>
+</html>
